@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <h1>CURRICULUM VITAE (CV)</h1>
+    <hr>
+
+    <table class="identitas">
+        <tr>
+            <td class="kolom-foto">
+                <img src="image/Foto.JPEG" alt="foto profil"
+                     class="foto-profil" width="180">
+            </td>
+
+            <td class="kolom-identitas">
+                <h2>Identitas Diri</h2>
+
+                <table class="data-identitas">
+                    <tr>
+                        <td><strong>Nama lengkap</strong></td>
+                        <td>:</td>
+                        <td>Imelda Elvi Naimnule</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>NPM</strong></td>
+                        <td>:</td>
+                        <td>51250031</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Program Studi</strong></td>
+                        <td>:</td>
+                        <td>Teknologi Informasi</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Tempat, Tanggal lahir</strong></td>
+                        <td>:</td>
+                        <td>Obe, 21 September 2007</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Alamat</strong></td>
+                        <td>:</td>
+                        <td>Kefamenanu</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>No.HP</strong></td>
+                        <td>:</td>
+                        <td>6282132434696</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Profil Singkat</h2>
+
+    <p>
+        Saya adalah mahasiswa program studi
+        <strong>Teknologi Informasi Universitas Timor</strong>.
+        Saya memiliki ketertarikan terhadap perkembangan teknologi,
+        khususnya dalam bidang <mark>web development</mark>.
+        Saya memiliki motivasi untuk terus belajar dan mengembangkan
+        kemampuan dalam bidang teknologi informasi agar dapat
+        memberikan manfaat bagi masyarakat.
+    </p>
+
+    <div class="grid-informasi">
+
+        <div class="card">
+            <h2>Riwayat Pendidikan</h2>
+            <ol>
+                <li>SDK MAUBESI 2</li>
+                <li>SMPK ST. YOSEF MAUBESI</li>
+                <li>SMAN INSANA TENGAH</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>Hobi</h2>
+            <ul>
+                <li>Mendengarkan musik</li>
+                <li>Jalan-jalan</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Bidang Minat</h2>
+            <ul>
+                <li>Web Development</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <p>
+        Bidang yang paling saya minati adalah
+        <strong><u>Web Development</u></strong>
+        karena saya ingin mampu membuat website yang menarik,
+        informatif dan bermanfaat.
+    </p>
+
+    <hr>
+
+    <h2>MK Semester Ini</h2>
+
+    <table class="tabel-mata-kuliah">
+        <tr>
+            <th>No.</th>
+            <th>Kode MK</th>
+            <th>Nama MK</th>
+            <th>SKS</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>TI201</td>
+            <td>Pemrograman Web Dasar</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>TI202</td>
+            <td>Basis Data</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>TI203</td>
+            <td>Organisasi dan Arsitektur Komputer</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Target dan Cita-cita</h2>
+
+    <p>
+        Target saya selama menempuh pendidikan di program studi
+        Teknologi Informasi adalah meningkatkan kemampuan dalam
+        <em>pemrograman dan pengembangan teknologi</em>.
+        Saya berharap bisa menjadi seorang
+        <strong>Web Developer</strong> yang mampu menghasilkan
+        aplikasi web yang bermanfaat bagi masyarakat.
+    </p>
+
+    <p>
+        Kunjungi website resmi
+       <a href="https://unimor.ac.id" target="_blank">
+    Universitas Timor
+</a>
+    </p>
+
+    <hr>
+
+    <!-- ================= FORM KONTAK ================= -->
+
+    <h2>Form Kontak</h2>
+
+    <p>
+        Silahkan mengisi form berikut jika ingin menghubungi saya.
+    </p>
+
+    <form id="formkontak">
+
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telepon">No. Telepon</label>
+        <input type="tel" id="telepon" name="telepon" required>
+
+        <label for="minat">Bidang Minat</label>
+
+        <select id="minat" name="minat" required>
+            <option value="">Pilihan bidang minat</option>
+            <option value="Web Development">Web Development</option>
+            <option value="UI/UX Design">UI/UX Design</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+            <option value="Data Analisis">Data Analisis</option>
+        </select>
+
+        <label for="pesan">Pesan</label>
+
+        <textarea
+            name="pesan"
+            id="pesan"
+            rows="5"
+            required></textarea>
+
+        <button type="submit">Kirim Pesan Ke WhatsApp
+        </button>
+
+        <button type="reset">Reset</button>
+    </form>
+        </div>
+<script>
+const form = document.getElementById("formkontak");
+
+form.addEventListener("submit", function(event) {
+    // Mencegah halaman dimuat ulang
+    event.preventDefault();
+
+    // Nomor WhatsApp tujuan
+    const nomorWhatsApp = "6282132434696";
+
+    // Mengambil data dari formulir
+    const nama = document.getElementById("nama").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const telepon = document.getElementById("telepon").value.trim();
+    const minat = document.getElementById("minat").value;
+    const pesan = document.getElementById("pesan").value.trim();
+
+    // Memeriksa apakah semua data sudah diisi
+    if (!nama || !email || !telepon || !minat || !pesan) {
+        alert("Silakan isi semua data terlebih dahulu!");
+        return;
+    }
+
+    // Membuat isi pesan WhatsApp
+    const isiPesan =
+        "Halo, saya menghubungi melalui website CV.\n\n" +
+        "Nama Lengkap: " + nama + "\n" +
+        "Email: " + email + "\n" +
+        "No. Telepon: " + telepon + "\n" +
+        "Bidang Minat: " + minat + "\n" +
+        "Pesan: " + pesan;
+
+    // Mengubah pesan menjadi format URL
+    const pesanEncoded = encodeURIComponent(isiPesan);
+
+    // Membuat tautan WhatsApp
+    
+const urlWhatsApp =
+    "https://wa.me/" + nomorWhatsApp +
+    "?text=" + pesanEncoded;
+
+// Membuka WhatsApp di tab baru
+window.location.href = urlWhatsApp;
+
+});
+</script>
+
+
+</body>
+</html>
+
